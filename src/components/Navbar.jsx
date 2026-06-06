@@ -25,7 +25,14 @@ const Navbar = () => {
 
             if (isDark) {
                 document.documentElement.classList.add("dark");
+            } else {
+                document.documentElement.classList.remove("dark");
             }
+        } else {
+            // Default Theme = Dark
+            setDarkMode(true);
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("darkMode", "true");
         }
     }, []);
 
