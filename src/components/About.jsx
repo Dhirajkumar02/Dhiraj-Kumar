@@ -170,50 +170,6 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* Technical Expertise */}
-                    <div className="mt-16">
-                        <h3 className="
-                            text-2xl font-semibold
-                            text-cyan-500 dark:text-cyan-400 mb-6
-                        ">
-                            Technical Expertise
-                        </h3>
-
-                        <div className="flex flex-wrap gap-3">
-                            {[
-                                "C++",
-                                "Qt Framework",
-                                "Python",
-                                "Visual Studio Code",
-                                "Qt Creator",
-                                "Linux",
-                                "CMake",
-                                "OOPs",
-                                "Multithreading",
-                                "TCP/UDP",
-                                "Socket Programming",
-                                "Software Testing",
-                                "Java",
-                                "Spring Boot",
-                                "React.js",
-                                "MySQL",
-                                "Git"
-                            ].map((skill) => (
-                                <span
-                                    key={skill}
-                                    className="
-                                        bg-cyan-100 text-cyan-700
-                                        dark:bg-cyan-500/20 dark:text-cyan-300
-                                        px-4 py-2 rounded-full
-                                        font-medium text-sm
-                                    "
-                                >
-                                    {skill}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
                     {/* Education */}
                     <div className="mt-16">
                         <h3 className="

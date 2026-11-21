@@ -37,7 +37,7 @@ const Hero = () => {
                         px-4 py-2 rounded-full mb-6
                     "
                     >
-                        🚀 Engineer @AMPL(Astra Microwave Products Limited, Hyderabad)
+                        🚀 Software Engineer @AMPL, Hyderabad
                     </div>
 
                     {/* Heading */}
@@ -52,7 +52,7 @@ const Hero = () => {
                     <div className="mb-6 space-y-2">
 
                         <p className="text-cyan-500 dark:text-cyan-400 text-xl md:text-2xl font-semibold">
-                            Embedded Software Engineer
+                            Software Engineer
                         </p>
 
                         <p className="text-gray-800 dark:text-white text-xl md:text-2xl font-semibold">
