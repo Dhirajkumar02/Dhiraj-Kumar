@@ -37,7 +37,7 @@ const Hero = () => {
                         px-4 py-2 rounded-full mb-6
                     "
                     >
-                        🚀 Apprentice Trainee @ LRDE-DRDO
+                        🚀 Engineer @AMPL(Astra Microwave Products Limited, Hyderabad)
                     </div>
 
                     {/* Heading */}
@@ -52,15 +52,15 @@ const Hero = () => {
                     <div className="mb-6 space-y-2">
 
                         <p className="text-cyan-500 dark:text-cyan-400 text-xl md:text-2xl font-semibold">
-                            Software Engineer
+                            Embedded Software Engineer
                         </p>
 
                         <p className="text-gray-800 dark:text-white text-xl md:text-2xl font-semibold">
-                            Qt & C++ Developer
+                            C++ & Qt Application Developer
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-300 text-xl md:text-2xl font-semibold">
-                            Java Full Stack Developer
+                            Real-Time Systems Developer
                         </p>
 
                     </div>
@@ -74,15 +74,18 @@ const Hero = () => {
                         max-w-2xl mb-6
                     "
                     >
-                        Currently working at LRDE-DRDO on Radar Technology
-                        Projects, developing Real-Time Log Analyzer and Radar
-                        Display Applications using Qt, C++, Networking, and
-                        Multithreading.
+                        Currently working at Astra Microwave Products Limited (AMPL),
+                        Hyderabad, in the R&D domain, contributing to Radar Technology
+                        projects. Experienced in developing real-time software
+                        applications using C++, Qt, Python, Linux, and network
+                        communication technologies. Passionate about embedded software,
+                        system integration, real-time data processing, and engineering
+                        application development.
                     </p>
 
                     {/* Location */}
                     <p className="text-gray-600 dark:text-gray-500 mt-2">
-                        📍 Bengaluru, India
+                        📍 Hyderabad, India
                     </p>
 
                     {/* Buttons */}

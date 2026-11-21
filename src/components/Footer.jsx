@@ -32,8 +32,8 @@ const Footer = () => {
                         </h3>
 
                         <p className="mt-3 text-gray-600 dark:text-gray-400">
-                            Software Engineer | Qt & C++ Developer |
-                            Java Full Stack Developer
+                            Embedded Software Engineer @AMPL | C++ & Qt Developer |
+                            Real-Time Systems Developer
                         </p>
                     </div>
 

@@ -1,3 +1,4 @@
+
 import FadeInSection from "./FadeInSection";
 
 const About = () => {
@@ -6,24 +7,30 @@ const About = () => {
             <section
                 id="about"
                 className="
-                py-24 px-6
-                bg-white text-gray-900
-                dark:bg-slate-900 dark:text-white
-                transition-colors duration-500
-            "
+                    py-24 px-6
+                    bg-white text-gray-900
+                    dark:bg-slate-900 dark:text-white
+                    transition-colors duration-500
+                "
             >
                 <div className="max-w-6xl mx-auto">
 
                     {/* Section Heading */}
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold">
-                            About <span className="text-cyan-500 dark:text-cyan-400">Me</span>
+                            About{" "}
+                            <span className="text-cyan-500 dark:text-cyan-400">
+                                Me
+                            </span>
                         </h2>
 
-                        <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-3xl mx-auto">
-                            Passionate Software Engineer with experience in
-                            Radar Technology, Qt Development, Networking,
-                            and Full Stack Web Development.
+                        <p className="
+                            text-gray-600 dark:text-gray-400
+                            mt-4 max-w-3xl mx-auto
+                        ">
+                            Software Engineer specializing in C++, Qt,
+                            Radar Software Development, Real-Time Applications,
+                            and Software Testing.
                         </p>
                     </div>
 
@@ -32,85 +39,206 @@ const About = () => {
 
                         {/* Professional Summary */}
                         <div>
-                            <h3 className="text-2xl font-semibold text-cyan-500 dark:text-cyan-400 mb-4">
+                            <h3 className="
+                                text-2xl font-semibold
+                                text-cyan-500 dark:text-cyan-400 mb-4
+                            ">
                                 Professional Summary
                             </h3>
 
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-                                I am currently working as an Apprentice Trainee
-                                at LRDE-DRDO, contributing to Radar Technology
-                                Projects. My work involves developing Real-Time
-                                Log Analyzer and Radar Display Applications using
-                                Qt, C++, Networking, and Multithreading.
+                            <p className="
+                                text-gray-700 dark:text-gray-300
+                                leading-relaxed text-lg
+                            ">
+                                I am a Software Engineer currently working
+                                in the Research & Development (R&D) domain
+                                at Astra Microwave Products Limited (AMPL),
+                                Hyderabad, Telangana. I am involved in
+                                developing and testing radar software
+                                applications for defence technology projects
+                                using C++, Qt Framework, Python, and
+                                Visual Studio Code.
                             </p>
 
-                            <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-4">
-                                Along with embedded and desktop software
-                                development, I have strong experience in Java
-                                Full Stack Development using Spring Boot,
-                                React.js, JDBC, Hibernate, MySQL, and REST APIs.
-                                I enjoy solving real-world engineering problems
-                                and building scalable software solutions.
+                            <p className="
+                                text-gray-700 dark:text-gray-300
+                                leading-relaxed text-lg mt-4
+                            ">
+                                Previously, I worked as a Graduate Apprentice
+                                Trainee at Electronics and Radar Development
+                                Establishment (LRDE-DRDO), Bengaluru, where
+                                I contributed to radar software development,
+                                including Radar Data Log Analyzer and Radar
+                                Display applications using C++ and Qt.
+                                I gained practical experience in networking,
+                                UDP/TCP socket programming, multithreading,
+                                file handling, and real-time data visualization.
+                            </p>
+
+                            <p className="
+                                text-gray-700 dark:text-gray-300
+                                leading-relaxed text-lg mt-4
+                            ">
+                                I also have a foundation in Java Full Stack
+                                Development, including Java, Spring Boot,
+                                React.js, Hibernate, JDBC, MySQL, and REST APIs.
+                                I enjoy developing reliable software
+                                applications, solving engineering challenges,
+                                and continuously learning new technologies.
                             </p>
                         </div>
 
-                        {/* Highlights */}
+                        {/* Professional Highlights */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 
-                            <div className="bg-gray-100 dark:bg-slate-800 p-5 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
-                                <h4 className="text-cyan-500 dark:text-cyan-400 font-bold text-lg">
-                                    LRDE-DRDO
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-5 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
+                                <h4 className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-bold text-lg
+                                ">
+                                    AMPL – R&D
                                 </h4>
-                                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                                    Radar Software Development
+                                <p className="
+                                    text-gray-700 dark:text-gray-300 mt-2
+                                ">
+                                    Radar Software Development & Testing
                                 </p>
                             </div>
 
-                            <div className="bg-gray-100 dark:bg-slate-800 p-5 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
-                                <h4 className="text-cyan-500 dark:text-cyan-400 font-bold text-lg">
-                                    Qt & C++
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-5 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
+                                <h4 className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-bold text-lg
+                                ">
+                                    C++ & Qt
                                 </h4>
-                                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                                    Desktop Application Development
+                                <p className="
+                                    text-gray-700 dark:text-gray-300 mt-2
+                                ">
+                                    Desktop GUI & Software Applications
                                 </p>
                             </div>
 
-                            <div className="bg-gray-100 dark:bg-slate-800 p-5 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
-                                <h4 className="text-cyan-500 dark:text-cyan-400 font-bold text-lg">
-                                    Java Full Stack
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-5 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
+                                <h4 className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-bold text-lg
+                                ">
+                                    Python
                                 </h4>
-                                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                                    Spring Boot + React
+                                <p className="
+                                    text-gray-700 dark:text-gray-300 mt-2
+                                ">
+                                    Development & Software Integration
                                 </p>
                             </div>
 
-                            <div className="bg-gray-100 dark:bg-slate-800 p-5 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
-                                <h4 className="text-cyan-500 dark:text-cyan-400 font-bold text-lg">
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-5 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
+                                <h4 className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-bold text-lg
+                                ">
                                     Networking
                                 </h4>
-                                <p className="text-gray-700 dark:text-gray-300 mt-2">
-                                    TCP / UDP Communication
+                                <p className="
+                                    text-gray-700 dark:text-gray-300 mt-2
+                                ">
+                                    TCP/UDP Communication & Socket Programming
                                 </p>
                             </div>
 
                         </div>
                     </div>
 
+                    {/* Technical Expertise */}
+                    <div className="mt-16">
+                        <h3 className="
+                            text-2xl font-semibold
+                            text-cyan-500 dark:text-cyan-400 mb-6
+                        ">
+                            Technical Expertise
+                        </h3>
+
+                        <div className="flex flex-wrap gap-3">
+                            {[
+                                "C++",
+                                "Qt Framework",
+                                "Python",
+                                "Visual Studio Code",
+                                "Qt Creator",
+                                "Linux",
+                                "CMake",
+                                "OOPs",
+                                "Multithreading",
+                                "TCP/UDP",
+                                "Socket Programming",
+                                "Software Testing",
+                                "Java",
+                                "Spring Boot",
+                                "React.js",
+                                "MySQL",
+                                "Git"
+                            ].map((skill) => (
+                                <span
+                                    key={skill}
+                                    className="
+                                        bg-cyan-100 text-cyan-700
+                                        dark:bg-cyan-500/20 dark:text-cyan-300
+                                        px-4 py-2 rounded-full
+                                        font-medium text-sm
+                                    "
+                                >
+                                    {skill}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
                     {/* Education */}
                     <div className="mt-16">
-                        <h3 className="text-2xl font-semibold text-cyan-500 dark:text-cyan-400 mb-6">
+                        <h3 className="
+                            text-2xl font-semibold
+                            text-cyan-500 dark:text-cyan-400 mb-6
+                        ">
                             Education
                         </h3>
 
                         <div className="space-y-6">
 
                             {/* B.Tech */}
-                            <div className="bg-gray-100 dark:bg-slate-800 p-6 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-6 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
                                 <h4 className="text-xl font-bold">
                                     Bachelor of Technology (B.Tech)
                                 </h4>
 
-                                <p className="text-gray-700 dark:text-gray-300">
+                                <p className="
+                                    text-gray-700 dark:text-gray-300
+                                ">
                                     Electronics & Communication Engineering
                                 </p>
 
@@ -118,42 +246,74 @@ const About = () => {
                                     href="https://technocratsgroup.edu.in/"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-cyan-500 dark:text-cyan-400 hover:underline"
+                                    className="
+                                        text-cyan-500 dark:text-cyan-400
+                                        hover:underline
+                                    "
                                 >
                                     Technocrats Institute of Technology, Bhopal
                                 </a>
 
-                                <p className="text-cyan-500 dark:text-cyan-400 font-semibold mt-2">
-                                    CGPA: 8.70
+                                <p className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-semibold mt-2
+                                ">
+                                    CGPA: 8.70 | 2020 – 2024
                                 </p>
                             </div>
 
                             {/* 12th */}
-                            <div className="bg-gray-100 dark:bg-slate-800 p-6 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-6 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
                                 <h4 className="text-xl font-bold">
                                     Intermediate (12th)
                                 </h4>
 
-                                <p className="text-gray-600 dark:text-gray-400">
+                                <a
+                                    href="https://www.rncollegehajipur.in/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="
+                                        text-cyan-500 dark:text-cyan-400
+                                        hover:underline
+                                    "
+                                >
                                     R.N. College, Hajipur, Vaishali, Bihar
-                                </p>
+                                </a>
 
-                                <p className="text-cyan-500 dark:text-cyan-400 font-semibold mt-2">
+                                <p className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-semibold mt-2
+                                ">
                                     82.80%
                                 </p>
                             </div>
 
                             {/* 10th */}
-                            <div className="bg-gray-100 dark:bg-slate-800 p-6 rounded-xl border border-gray-300 dark:border-slate-700 hover:border-cyan-400 transition">
+                            <div className="
+                                bg-gray-100 dark:bg-slate-800
+                                p-6 rounded-xl
+                                border border-gray-300 dark:border-slate-700
+                                hover:border-cyan-400 transition
+                            ">
                                 <h4 className="text-xl font-bold">
                                     Matriculation (10th)
                                 </h4>
 
-                                <p className="text-gray-600 dark:text-gray-400">
+                                <p className="
+                                    text-gray-600 dark:text-gray-400
+                                ">
                                     G.A. Inter School, Hajipur, Vaishali, Bihar
                                 </p>
 
-                                <p className="text-cyan-500 dark:text-cyan-400 font-semibold mt-2">
+                                <p className="
+                                    text-cyan-500 dark:text-cyan-400
+                                    font-semibold mt-2
+                                ">
                                     72.40%
                                 </p>
                             </div>
