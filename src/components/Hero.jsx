@@ -52,7 +52,7 @@ const Hero = () => {
                     <div className="mb-6 space-y-2">
 
                         <p className="text-cyan-500 dark:text-cyan-400 text-xl md:text-2xl font-semibold">
-                            Software Engineer
+                            Embedded Software Engineer
                         </p>
 
                         <p className="text-gray-800 dark:text-white text-xl md:text-2xl font-semibold">

@@ -93,7 +93,7 @@ const Contact = () => {
                                 <div>
                                     <h3 className="font-semibold">Location</h3>
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        Bengaluru, Karnataka, India
+                                        Hyderabad, Telangana, India
                                     </p>
                                 </div>
                             </div>
